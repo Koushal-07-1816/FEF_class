@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: Arial;
+    background-color: lightgray;
+}
+
+.personal-information {
+    padding: 25px 15px;
+    margin-bottom: 15px;
+    background-color: lightblue;
+}
+
+.course-registration {
+    padding: 25px 15px;
+    background-color: pink;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 14px 0;
+}

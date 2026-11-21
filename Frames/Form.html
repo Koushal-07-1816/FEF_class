@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body style="background-color: aliceblue;">
+
+    <h1>Student Registration Form</h1>
+
+    <form style="background-color: azure;">
+
+        <fieldset style="background-color: aquamarine;">
+            <legend>Personal Information</legend>
+
+            Student Name:
+            <input type="text" placeholder="Enter your name">
+            <br><br>
+
+            Email:
+            <input type="email" placeholder="Enter your email">
+            <br><br>
+
+            Password:
+            <input type="password" placeholder="Enter password">
+            <br><br>
+
+            Age:
+            <input type="number" min="1" max="100" style="width: 75px;">
+            <br><br>
+
+            Gender:
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <br><br>
+
+        </fieldset>
+
+        Skills:
+        <input type="checkbox" name="skills" value="HTML"> HTML
+        <input type="checkbox" name="skills" value="CSS"> CSS
+        <input type="checkbox" name="skills" value="JavaScript"> JavaScript
+        <br><br>
+
+        Department:
+        <select name="department">
+            <option value="">Select Department</option>
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>EEE</option>
+            <option>Mechanical</option>
+            <option>Civil</option>
+        </select>
+        <br><br>
+
+        Select a Course:
+        <input type="text">
+        <br><br>
+
+        Date of Birth:
+        <input type="date">
+        <br><br>
+
+        Address:
+        <textarea rows="5" cols="35" placeholder="Enter your address"></textarea>
+        <br><br>
+
+        Upload Photo:
+        <input type="file" accept="image/*">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Clear">
+
+    </form>
+
+</body>
+</html>
