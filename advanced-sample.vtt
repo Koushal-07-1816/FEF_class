@@ -1,0 +1,22 @@
+WEBVTT - Advanced Features Demo
+
+NOTE
+This file demonstrates advanced WebVTT features
+
+00:00:05.000 --> 00:00:10.000 align:center
+<b>Bold title</b> appearing in the center
+
+00:00:12.000 --> 00:00:17.000 position:80% line:20%
+Top-right positioned subtitle
+
+00:00:20.000 --> 00:00:25.000 align:left size:50%
+This is a <i>left-aligned</i> subtitle
+taking up only half the screen width
+
+00:00:28.000 --> 00:00:33.000
+Regular subtitle with <u>underlined</u> text
+and <b><i>bold italic</i></b> combination
+
+00:00:35.000 --> 00:00:40.000 align:center
+<c.highlight>Custom styled text</c>
+using CSS classes
